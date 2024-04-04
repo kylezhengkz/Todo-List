@@ -6,7 +6,9 @@ export default function App() {
       <form className="new-item-form">
         <div className="form-row">
           <label htmlFor="item">New Item</label>
-          <input type="text" id="label"></input>
+          <input type="text" id="label">
+            Item 1
+          </input>
         </div>
         <button className="btn">Add</button>
       </form>
